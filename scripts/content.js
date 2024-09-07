@@ -62,6 +62,28 @@ function loadContent() {
                     </aside>
                 </a>`;
             });
+            // Skills Section
+            const skillsList = document.querySelector(".skills-list");
+            const colors = [
+                "yellow",
+                "green",
+                "blue",
+                "red",
+                "purple",
+                "orange",
+                "cyan",
+            ];
+            data.skills.forEach((skill, index) => {
+                const listItem = document.createElement("li");
+                listItem.classList.add("skills-item");
+                const circle = document.createElement("div");
+                circle.classList.add("circle", colors[index % colors.length]);
+                const skillName = document.createElement("h2");
+                skillName.textContent = skill;
+                listItem.appendChild(circle);
+                listItem.appendChild(skillName);
+                skillsList.appendChild(listItem);
+            });
         }
         catch (error) {
             console.error("Error loading content:", error);
