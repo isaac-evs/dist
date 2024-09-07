@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "Rodrigo Villalobos",
+    "subtitle": "Guadalajara Jalisco • MX",
+    "button1": {
+      "text": "GitHub",
+      "link": "https://github.com/isaac-evs"
+    },
+    "button2": {
+      "text": "Contact",
+      "link": "mailto:isaac.vazqsand@gmail.com"
+    },
+    "contactEmail": "isaac.vazqsand@gmail.com"
+  },
+  "education": [
+    {
+      "degree": "BS Software Engineering",
+      "institution": "UNAM",
+      "year": "2026"
+    },
+    {
+      "certificate": "Data Analytics Certificate",
+      "institution": "Grow with Google",
+      "year": "2024"
+    },
+    {
+      "position": "IT Support",
+      "company": "Centro de Apego y Neurociencias",
+      "period": "2023 - Present"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open Studio",
+      "description": "Art Social Media",
+      "technologies": "Express • NodeJS",
+      "link": "https://github.com/LuckyCaves/OpenStudio/tree/main"
+    },
+    {
+      "name": "Matcha",
+      "description": "Online CoffeeShop",
+      "technologies": "Express • NodeJS",
+      "link": "https://github.com/isaac-evs"
+    },
+    {
+      "name": "Meow Meadow",
+      "description": "Farming Game",
+      "technologies": "Pygame • Python",
+      "link": "https://github.com/isaac-evs/Meow_Meadow"
+    }
+  ]
+}
