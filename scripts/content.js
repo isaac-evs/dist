@@ -23,9 +23,9 @@ function loadContent() {
             document.querySelector(".sub-title").textContent =
                 data.header.subtitle;
             const buttons = document.querySelectorAll(".buttons a button");
-            buttons[0].textContent = data.header.button1.text;
+            buttons[0].innerHTML = `${data.header.button1.text} <i class="fas fa-chevron-right"></i>`;
             buttons[0].parentElement.setAttribute("href", data.header.button1.link);
-            buttons[1].textContent = data.header.button2.text;
+            buttons[1].innerHTML = `${data.header.button2.text} <i class="fas fa-chevron-right"></i>`;
             buttons[1].parentElement.setAttribute("href", data.header.button2.link);
             // Education Section
             const educationSection = document.querySelectorAll(".section2 table tr td");
