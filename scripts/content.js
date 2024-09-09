@@ -12,6 +12,7 @@ function loadContent() {
         try {
             const response = yield fetch("data/content.json");
             const data = yield response.json();
+            console.log("Data loaded:", data);
             // Header
             const mainTitle = document.querySelector(".main-title");
             const subTitle = document.querySelector(".sub-title");
