@@ -109,3 +109,4 @@ function loadContent() {
         }
     });
 }
+loadContent();
