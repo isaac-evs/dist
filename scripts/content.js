@@ -12,11 +12,6 @@ function loadContent() {
         try {
             const response = yield fetch("data/content.json");
             const data = yield response.json();
-            // Form
-            const contactForm = document.getElementById("contactForm");
-            if (data.header.contactEmail) {
-                contactForm.setAttribute("action", `https://formsubmit.co/${data.header.contactEmail}`);
-            }
             // Header
             document.querySelector(".main-title").textContent =
                 data.header.title;
