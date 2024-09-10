@@ -13,7 +13,7 @@
     "contactEmail": "isaac.vazqsand@gmail.com"
   },
   "intro": {
-    "description": "Hello World"
+    "description": "Im a Software Engineer student passionate about data, art and linguistics, my dream is to research how language technologies can help solve social problems"
   },
   "education": [
     {
@@ -40,16 +40,16 @@
       "link": "https://github.com/LuckyCaves/OpenStudio/tree/main"
     },
     {
-      "name": "Matcha",
-      "description": "Online CoffeeShop",
-      "technologies": "Express • NodeJS",
-      "link": "https://github.com/isaac-evs"
+      "name": "EEG Sript",
+      "description": "MNE Python Script",
+      "technologies": "Python • Tkinter",
+      "link": "https://github.com/isaac-evs/EEG_Script"
     },
     {
-      "name": "Meow Meadow",
-      "description": "Farming Game",
-      "technologies": "Pygame • Python",
-      "link": "https://github.com/isaac-evs/Meow_Meadow"
+      "name": "HeartML",
+      "description": "Health Prediction App",
+      "technologies": "Express • NodeJS",
+      "link": "https://github.com/isaac-evs/HeartML"
     }
   ],
   "skills": ["Python", "R", "SQL", "Tableau", "Power BI", "Excel"]
