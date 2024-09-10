@@ -12,6 +12,9 @@
     },
     "contactEmail": "isaac.vazqsand@gmail.com"
   },
+  "intro": {
+    "description": "Hello World"
+  },
   "education": [
     {
       "degree": "BS Software Engineering",
