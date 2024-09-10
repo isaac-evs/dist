@@ -35,13 +35,13 @@ function loadContent() {
                     button2Parent.setAttribute("href", data.header.button2.link);
                 }
             }
-            // Intro section
+            // Intro Section
             const introSection = document.querySelectorAll(".section-intro");
             if (introSection.length > 0) {
                 introSection[0].innerHTML = `
-        <div>
-        <h3>${data.intro[0].description} </h3>
-        </div>`;
+           <div>
+           <h3>${data.intro.description}</h3>
+           </div>`;
             }
             // Education Section
             const educationSection = document.querySelectorAll(".section2 table tr td");
