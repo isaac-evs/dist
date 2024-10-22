@@ -37,7 +37,7 @@
       "name": "Open Studio",
       "description": "Art Social Media",
       "technologies": "Express • NodeJS",
-      "link": "https://github.com/LuckyCaves/OpenStudio/tree/main"
+      "link": "https://github.com/isaac-evs/OpenStudio"
     },
     {
       "name": "EEG Sript",
@@ -46,10 +46,10 @@
       "link": "https://github.com/isaac-evs/EEG_Script"
     },
     {
-      "name": "HeartML",
-      "description": "Health Prediction App",
+      "name": "Neurotype",
+      "description": "Health Tracking App",
       "technologies": "Express • NodeJS",
-      "link": "https://github.com/isaac-evs/HeartML"
+      "link": "https://github.com/isaac-evs/neurotype"
     }
   ],
   "skills": ["Python", "R", "SQL", "Tableau", "Power BI", "Excel"]
